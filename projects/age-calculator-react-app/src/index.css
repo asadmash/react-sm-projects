@@ -1,7 +1,9 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
-    .no-select::-webkit-calendar-picker-indicator {
+.no-select::-webkit-calendar-picker-indicator {
         background: transparent;
         bottom: 0;
         color: transparent;
